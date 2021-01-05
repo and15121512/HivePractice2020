@@ -1,6 +1,6 @@
 USE suharnikovan;
 
 SELECT day, count(ip) AS cnt
-FROM Logs
+FROM logs
 GROUP BY day
 SORT BY cnt DESC;
