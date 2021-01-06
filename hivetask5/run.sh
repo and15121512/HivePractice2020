@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hive -f task5.sql;
+hive -f task5.sql
